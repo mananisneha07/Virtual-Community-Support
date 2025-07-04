@@ -1,0 +1,9 @@
+
+<form (ngSubmit)="submitForm()">
+    Mission: <input type="text" [(ngModel)]="mission" name="mission">
+    <button type="submit">Submit</button>
+</form>
+<div *ngIf="submitted">
+    <h3>Submitted data:</h3>
+    <p><strong>Name:</strong>{{mission}}</p>
+</div>

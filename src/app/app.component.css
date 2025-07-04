@@ -1,0 +1,25 @@
+/* Center everything */
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Heading styles */
+h1 {
+  color: #333;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* Optional: style <app-mission> if it renders as a block */
+app-mission {
+  width: 100%;
+  max-width: 400px;
+}
